@@ -29,7 +29,15 @@ A full-stack system for portfolio optimization built with Python, applying **Mod
    ```
 
 2. Install dependencies:
+
+   ```bash
    pip install -r requirements.txt
 
+   ```
+
 3. Launch the app:
+
+   ```bash
    streamlit run streamlit-portfolio-optimizer.py
+
+   ```
