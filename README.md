@@ -1,45 +1,35 @@
-# Portfolio Optimizer
+# Portfolio Optimization App
 
-## Quick Setup Guide for Windows
+A full-stack system for portfolio optimization built with Python, applying **Modern Portfolio Theory (MPT)**.
 
-Follow these steps to run the Portfolio Optimizer application:
+## Features
 
-### 1. Install Python (if not already installed)
+- Collects and processes 5+ years of historical stock data via **Yahoo Finance API (yfinance)**.
+- Cleans and transforms financial data for portfolio analysis.
+- Runs **backtesting workflows** with automated performance analytics.
+- Compares optimized portfolios against baseline benchmarks.
+- Interactive **Streamlit dashboard** with:
+  - Real-time efficient frontier visualization
+  - Investment recommendations
+  - Portfolio analytics
 
-1. Download Python 3.8 or newer from [python.org](https://www.python.org/downloads/windows/)
-2. Run the installer
-3. **CHECK "Add Python to PATH"** during installation
-4. Click Install Now
+## Tech Stack
 
-### 2. Run the Application
+- **Python**: NumPy, pandas, SciPy
+- **Data Source**: Yahoo Finance API (yfinance)
+- **Dashboard**: Streamlit
 
-1. Open Command Prompt as Administrator (right-click Command Prompt and select "Run as administrator")
-2. Navigate to the project folder:
+## Getting Started
+
+1. Clone the repo:
+
+   ```bash
+   git clone https://github.com/yourusername/portfolio_optimization_app.git
+
    ```
-   cd path\to\portfolio-optimizer
-   ```
-3. Create a virtual environment:
-   ```
-   python -m venv venv
-   ```
-4. Activate the virtual environment:
-   ```
-   venv\Scripts\activate
-   ```
-5. Install all required packages:
-   ```
+
+2. Install dependencies:
    pip install -r requirements.txt
-   ```
-6. Launch the application:
-   ```
+
+3. Launch the app:
    streamlit run streamlit-portfolio-optimizer.py
-   ```
-7. The application will open in your web browser automatically
-
-### Troubleshooting
-
-- If "python" is not recognized, try using "py" instead
-- If you have installation errors, try updating pip first:
-  ```
-  python -m pip install --upgrade pip
-  ```
