@@ -1,0 +1,30 @@
+# Portfolio Optimizer - Requirements
+# Last updated: April 2025
+
+# Core dependencies
+streamlit==1.31.0
+numpy==1.26.3
+pandas==2.2.0
+matplotlib==3.8.2
+seaborn==0.13.1
+yfinance==0.2.35
+
+# Data processing and analysis
+scikit-learn==1.3.2
+xgboost==2.0.3
+scipy==1.12.0
+python-dateutil==2.8.2
+
+# Additional utilities
+plotly==5.18.0
+tqdm==4.66.1
+openpyxl==3.1.2
+statsmodels==0.14.1
+
+# For DataFrame operations with Excel files
+xlrd==2.0.1
+
+# Ensure compatibility of dependencies
+pip>=23.3.1
+setuptools>=69.0.3
+wheel>=0.42.0
