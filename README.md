@@ -2,6 +2,9 @@
 
 A full-stack system for portfolio optimization built with Python, applying **Modern Portfolio Theory (MPT)**.
 
+# Goal  
+The goal of this app is to help **beginner investors** build smarter portfolios by achieving the **best possible risk-to-reward ratio** based on their individual **risk tolerance** — whether they prefer a **conservative**, **moderate**, or **aggressive** investment strategy.
+
 ## Features
 
 - Collects and processes 5+ years of historical stock data via **Yahoo Finance API (yfinance)**.
