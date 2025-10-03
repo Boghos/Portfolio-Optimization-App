@@ -1646,7 +1646,7 @@ def main():
         st.session_state.investment_amount = 10000
     
     # App title
-    st.title("Portfolio Optimization with Machine Learning")
+    st.title("Portfolio Optimization")
     st.subheader("Build and optimize your investment portfolio")
     
     # Initialize
